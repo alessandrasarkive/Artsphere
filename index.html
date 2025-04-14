@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artsphere</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- My Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app-container">
+    <!-- Schermata Intro -->
+    <div class="screen intro-screen">
+      <h1 class="intro-title">Artsphere</h1>
+      <p>Scroll, get inspired, create..</p>
+    </div>
+
+    <!-- Video sections -->
+    <div class="screen">
+      <video src="assets/video/sketch.mp4" loop muted playsinline></video>
+      <div class="controls">
+        <img class="user-img" src="assets/img/user1.png" alt="User"/>
+        <i class="fas fa-volume-up volume"></i>
+        <i class="fas fa-heart like"></i>
+        <span class="like-count">0</span>
+        <i class="fas fa-comment"></i>
+        <i class="fas fa-bookmark bookmark"></i>
+        <i class="fas fa-share"></i>
+      </div>
+      <div class="info">
+        <h4 class="username">@arteinschizzo</h4>
+        <p class="description">Turning thoughts into lines, letting imagination flow freely. #sketch</p>
+        <p class="audio"><i class="fas fa-music"></i> Soft strokes of inspiration</p>
+      </div>
+    </div>
+
+    <div class="screen">
+      <video src="assets/video/journaling.mp4" loop muted playsinline></video>
+      <div class="controls">
+        <img class="user-img" src="assets/img/user2.png" alt="User"/>
+        <i class="fas fa-volume-up volume"></i>
+        <i class="fas fa-heart like"></i>
+        <span class="like-count">0</span>
+        <i class="fas fa-comment"></i>
+        <i class="fas fa-bookmark bookmark"></i>
+        <i class="fas fa-share"></i>
+      </div>
+      <div class="info">
+        <h4 class="username">@pagesunfold</h4>
+        <p class="description">Capturing thoughts, emotions, and moments in between. #journaling</p>
+        <p class="audio"><i class="fas fa-music"></i> The quiet hum of ink on paper</p>
+      </div>
+    </div>
+
+    <div class="screen">
+      <video src="assets/video/busto.mp4" loop muted playsinline></video>
+      <div class="controls">
+        <img class="user-img" src="assets/img/user3.png" alt="User"/>
+        <i class="fas fa-volume-up volume"></i>
+        <i class="fas fa-heart like"></i>
+        <span class="like-count">0</span>
+        <i class="fas fa-comment"></i>
+        <i class="fas fa-bookmark bookmark"></i>
+        <i class="fas fa-share"></i>
+      </div>
+      <div class="info">
+        <h4 class="username">@chiselandform</h4>
+        <p class="description">Capturing the essence of the past in timeless stone. #stoneandstory</p>
+        <p class="audio"><i class="fas fa-music"></i> Chiseling whispers</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
